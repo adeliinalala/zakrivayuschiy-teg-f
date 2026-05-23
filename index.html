@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon-2.png">
     <title>Закрывающий тег</title>
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
@@ -509,20 +510,17 @@
         </div>
       </article>
     </main>
-    <script src="./scripts/like.js"></script>
-    <footer class="footer">
       <button
         class="save-button button same__button"
         type="button"
         onclick="window['save-dialog'].showModal()"
       >
-        <svg class="save-button__icon" width="21" height="21">
+        <svg class="save-button__icon">
           <use href="#icon-floppy"></use>
         </svg>
         <span class="button__text"> Сохранить на память </span>
       </button>
-    </footer>
-  </body>
+    <script src="./scripts/like.js"></script>
   <svg style="display: none">
     <symbol id="icon-floppy" viewBox="0 0 24 24">
       <path
@@ -561,7 +559,8 @@
       type="button"
       onclick="window['save-dialog'].close()"
     >
-      <span class="button__text">ОК</span>
+      <span class="button__text ok__button-text">ok</span>
     </button>
   </dialog>
+  </body>
 </html>
