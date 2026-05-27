@@ -190,6 +190,8 @@
   cursor: pointer;
   transform-origin: center;
   cursor: pointer;
+  width: 39px;
+  height: 36px;
 }
 
 .like-icon .sparks {
@@ -260,7 +262,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: heart-scale 0.3s ease forwards;
+  animation: heart-scale 0.3s ease;
 }
 
 .like-icon.is-liked .sparks {
@@ -294,7 +296,6 @@
   padding-bottom: clamp(1.0625rem, 1.0625rem + 0vw, 1.0625rem);
   padding-right: clamp(1.25rem, 1.25rem + 0vw, 1.25rem);
   padding-left: clamp(1.25rem, 1.25rem + 0vw, 1.25rem);
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
